@@ -2,10 +2,10 @@ body {
   width: 700px;
   margin: 0 auto;
   font-family: 'PT Sans', sans-serif;
-  /*background-image: url(../images/background.jpg);
+  background-image: url(../images/background.jpg);
   background-size: 800px 20624px;
   background-position: top center;
-  background-repeat: no-repeat;*/
+  background-repeat: no-repeat;
 }
 
 h1, h2. h3 {
