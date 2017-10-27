@@ -2,14 +2,14 @@ body {
   width: 700px;
   margin: 0 auto;
   font-family: 'PT Sans', sans-serif;
-  background-image: url(../images/background.jpg);
+  /*background-image: url(../images/background.jpg);
   background-size: 800px 20624px;
   background-position: top center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
 }
 
-h1, h2. h3 {
-font-family: 'PT Sans caption', sans-serif;
+h1, h2, h3 {
+font-family: 'PT Sans Caption', sans-serif;
 font-weight: bold;
 }
 
@@ -20,7 +20,7 @@ h1 {
 }
 
 p {
-  font-size: 23px;
+  font-size: 22px;
   line-height: 34px;
   margin-bottom: 29px;
 }
@@ -31,11 +31,11 @@ line-height: 32px;
 }
 
 p + p {
-  margin-top: 18px;
+  margin-top: 17px;
 }
 
 h1 + p + p {
-  margin-top: 30px;
+  margin-top: 28px;
 }
 
 a{
@@ -52,9 +52,9 @@ a:visited{
 }
 
 h2 {
-  font-size: 33px;
+  font-size: 32px;
   margin-bottom: 9px;
-  margin-top: 43px;
+  margin-top: 45px;
 }
 
 h3 {
@@ -70,6 +70,6 @@ ul {
   margin-left: 28px;
   margin-bottom: 30px;
 }
-li{
+li {
   margin-bottom: 18px;
 }
