@@ -1,8 +1,5 @@
 body {
-<<<<<<< HEAD
-=======
 
->>>>>>> c9e0ca8a8328eaa81d2c3eda807084a0fb96d452
   font-family: 'PT Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -32,7 +29,6 @@ h1, h2, h3 {
 }
 
 h1 {
-<<<<<<< HEAD
   margin-top: 73px;
   font-size: 37px;
   margin-bottom: 17px;
@@ -41,21 +37,18 @@ h1 {
 h2 {
   font-size: 29px;
   margin-bottom: 9px;
-=======
   margin-top: 69px;
   font-size: 40px;
 }
 
 h2 {
   font-size: 32px;
->>>>>>> c9e0ca8a8328eaa81d2c3eda807084a0fb96d452
   margin-top: 45px;
 }
 
 h3 {
   font-size: 30px;
   margin-top: 38px;
-<<<<<<< HEAD
   margin-bottom: 9px;
 }
 
@@ -69,7 +62,6 @@ h1 + p {
   font-size: 21px;
   color: rgba(0,0,0,.4);
   line-height: 31px;
-=======
 }
 
 p, blockquote, li {
@@ -86,7 +78,7 @@ h1 + p {
 
 h2 + p {
   margin-top: 9px;
->>>>>>> c9e0ca8a8328eaa81d2c3eda807084a0fb96d452
+
 }
 
 p + p {
@@ -102,11 +94,7 @@ blockquote {
   font-style: italic;
 }
 
-<<<<<<< HEAD
 a{
-=======
-a {
->>>>>>> c9e0ca8a8328eaa81d2c3eda807084a0fb96d452
   color: inherit;
   text-decoration: underline;
 }
@@ -120,18 +108,15 @@ a:visited {
 }
 
 ul {
-<<<<<<< HEAD
   list-style-type: disc;
   font-size: 19px;
   line-height: 34px;
   /*margin-left: 28px;
   margin-bottom: 30px;*/
-=======
   font-size: 22px;
   line-height: 34px;
   margin-left: 28px;
   margin-bottom: 29px;
->>>>>>> c9e0ca8a8328eaa81d2c3eda807084a0fb96d452
 }
 
 li {
@@ -140,7 +125,18 @@ li {
 }
 
 blockquote {
+  position: relative;
   font-style: italic;
+}
+blockquote::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  display: block;
+  width: 3px;
+  left: -20px;
+  background: black;
 }
 
 img + h2 {
