@@ -1,4 +1,7 @@
 .sidebar {
+  top: 20px;
+  left: 20px;
+  padding: 30px;
   position: fixed;
   width: 300px;
   background-color: #80DEEA;
@@ -14,4 +17,23 @@
 .sidebar a {
   text-decoration: none;
   cursor: pointer;
+  font-size: 11px;
+}
+
+.sidebar li>ul {
+  margin-top: 11px;
+  margin-left: 9px;
+  color: grey;
+}
+
+.sidebar li {
+  line-height: 13px;
+}
+
+.sidebar li + li {
+  margin-top: 11px;
+}
+
+.sidebar > ul > li:first-child {
+  font-weight: bold;
 }

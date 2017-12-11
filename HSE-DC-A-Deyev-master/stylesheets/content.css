@@ -1,22 +1,22 @@
-article {
+.content {
   width: 700px;
   margin: 0 auto;
 }
 
-article h1,
-article h2,
-article h3 {
+.content h1,
+.content h2,
+.content h3 {
   font-family: 'PT Sans Caption', sans-serif;
   font-weight: bold;
 }
 
-article h1 {
+.content h1 {
   margin-top: 69px;
   font-size: 37px;
   margin-bottom: 17px;
 }
 
-article h2 {
+.content h2 {
   font-size: 29px;
   margin-top: 46px;
   /*margin-bottom: 6px;*/
@@ -24,78 +24,74 @@ article h2 {
 }
 
 
-article h3 {
+.content h3 {
   font-size: 26px;
   margin-top: 38px;
   margin-bottom: 9px;
 }
 
-article p,
-article blockquote,
-article li {
+.content p,
+.content blockquote,
+.content li {
   font-size: 19px;
   line-height: 32px;
   margin-top: 17px;
   /*margin-bottom: 29px;*/
 }
 
-article h1 + p {
+.content h1 + p {
   font-size: 21px;
   color: rgba(0,0,0,.4);
   line-height: 30px;
 }
 
-article h2 + p {
+.content h2 + p {
   margin-top: 10px;
 }
 
-/*article p + h2 {
-  margin-top: 46px;
-}*/
-
-article p + p {
+.content p + p {
   margin-top: 29px;
 }
 
-article h1 + p + p {
+.content h1 + p + p {
   margin-top: 29px;
   line-height: 32px;
 }
 
-article blockquote {
+.content blockquote {
   font-style: italic;
 }
 
-article a {
+.content a {
   color: inherit;
   text-decoration: underline;
 }
 
-article a:hover {
+.content a:hover {
   text-decoration: none;
 }
 
-article ul {
+.content ul {
   list-style-type: disc;
   margin-left: 28px;
   margin-top: 30px;
   margin-bottom: 29px;
 }
 
-article li {
+.content li {
   list-style-type: disc;
 }
 
-article li + li {
+.content li + li {
   margin-top: 17px;
 }
 
-article blockquote {
+.content blockquote {
   position: relative;
   font-style: italic;
 }
 
-article blockquote::before {
+.content blockquote::before {
   content: '';
   position: absolute;
   top: 0;
@@ -106,12 +102,12 @@ article blockquote::before {
   background: black;
 }
 
-article img {
+.content img {
   display: block;
   width: 1020px;
   margin: 80px auto;
 }
 
-article img + p {
+.content img + p {
   margin-top: -3px;
 }
