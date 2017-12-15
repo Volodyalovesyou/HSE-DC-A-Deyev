@@ -1,13 +1,13 @@
 .sidebar {
-  top: 20px;
+  position: fixed;
+  top: 70px;
   left: 20px;
   padding: 30px;
-  position: fixed;
   width: 300px;
-  background-color: #80DEEA;
   z-index: 1;
   opacity: .1;
   transition: all .1s ease-out;
+  font-size: 14px;
 }
 
 .sidebar:hover {
@@ -17,23 +17,31 @@
 .sidebar a {
   text-decoration: none;
   cursor: pointer;
-  font-size: 11px;
+  color: inherit;
 }
 
-.sidebar li>ul {
-  margin-top: 11px;
-  margin-left: 9px;
-  color: grey;
-}
-
-.sidebar li {
-  line-height: 13px;
-}
-
-.sidebar li + li {
-  margin-top: 11px;
+.sidebar a:hover {
+  text-decoration: underline;
 }
 
 .sidebar > ul > li:first-child {
   font-weight: bold;
+}
+
+.sidebar li + li, .sidebar a + ul {
+  margin-top: 12px;
+}
+
+.sidebar > ul > li > ul li {
+  margin-left: 10px;
+}
+
+.sidebar > ul > li > ul li a {
+  color: rgba(0, 0, 0, .4);
+}
+
+@media screen and (max-width: 1340px) {
+  .sidebar {
+    display: none;
+  }
 }
