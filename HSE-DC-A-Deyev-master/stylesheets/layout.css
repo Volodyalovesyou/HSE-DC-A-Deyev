@@ -12,3 +12,9 @@ body {
 a:visited {
   color: inherit;
 }
+
+.share {
+  bottom: 20px;
+  right: 20px;
+  position: fixed;
+}

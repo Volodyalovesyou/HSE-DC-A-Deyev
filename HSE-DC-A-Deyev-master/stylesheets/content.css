@@ -85,7 +85,7 @@ article blockquote {
 }
 
 article blockquote::before {
- article: '';
+  article: '';
   position: absolute;
   top: 0;
   height: 100%;
