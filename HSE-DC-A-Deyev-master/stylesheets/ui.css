@@ -1,0 +1,40 @@
+.btn {
+  position: absolute;
+
+  border-width: 1px;
+  border-radius: 5px;
+  border-style: solid;
+  text-decoration: none;
+  font-family: 'PT Sans Caption' sans-serif;:
+}
+
+.small {
+  height: 40px;
+  width: 250px;
+  line-height: 40px;
+  font: 15px;
+  top: 317px;
+  left: 435px;
+  opacity: 0.5;
+}
+
+.large {
+  height: 50px;
+  width: 300px;
+  line-height: 50px;
+  top: 312px;
+  right: 435px;
+  opacity: 0.5;
+}
+
+.white {
+  background-color: white;
+  border-color: #cccccc;
+  color: #666666;
+}
+
+.green {
+  background-color: green;
+  /* border-color: red; */
+  color: #666666;
+}
