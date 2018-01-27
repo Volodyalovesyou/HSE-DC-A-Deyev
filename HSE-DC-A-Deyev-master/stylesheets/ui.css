@@ -1,6 +1,5 @@
 .btn {
   position: absolute;
-
   border-width: 1px;
   border-radius: 5px;
   border-style: solid;
@@ -15,16 +14,17 @@
   font: 15px;
   top: 317px;
   left: 435px;
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 
 .large {
+  font-weight: bold;
   height: 50px;
   width: 300px;
   line-height: 50px;
   top: 312px;
   right: 435px;
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 
 .white {
@@ -34,7 +34,10 @@
 }
 
 .green {
-  background-color: green;
-  /* border-color: red; */
-  color: #666666;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b4ddb4+0,83c783+7,005700+95,002400+100 */
+background: #b4ddb4; /* Old browsers */
+background: -moz-linear-gradient(top, #b4ddb4 0%, #83c783 7%, #005700 95%, #002400 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #b4ddb4 0%,#83c783 7%,#005700 95%,#002400 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #b4ddb4 0%,#83c783 7%,#005700 95%,#002400 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#002400',GradientType=0 ); /* IE6-9 */
 }
