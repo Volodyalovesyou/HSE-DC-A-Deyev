@@ -105,6 +105,10 @@
   margin-top: 27px;
 }
 
+.landingWrapper .mainSection.center br.tablet{
+  display: none;
+}
+
 .landingWrapper .mainSection .mockup {
   position: absolute;
   background-size: cover;
@@ -290,45 +294,125 @@
     width: 960px;
     height: 555px;
   }
-
 }
 
 
-@media all and (max-width: 910px) and (min-width: 768px) {
+@media all and (max-width: 910px) {
   .landing.bg {
     background-image: url(../images/index_mockup_ipad_portrait.png);
     background-size: 768px 4180px;
   }
 
   .landingWrapper .mainSection {
-    width: 910px;
+    width: 768px;
     min-width: 768px;
-    height: 1024px;
+    height: 950px;
   }
 
-  .landingWrapper .mainSection .textWrapper {
-    position: absolute;
-    width: 580px;
-    top: 115px;
+  .landingWrapper .mainSection .textWrapper
+  .landingWrapper .mainSection:first-child .textWrapper {
+    margin: 56px auto 0;
+    position: relative;
+    width: 577px;
+    top: auto;
   }
 
-  .landingWrapper .mainSection .pattern {
-    width: 210px;
-    height: 20px;
-    margin-top: 60px;
-}
+  .landingWrapper .mainSection.left .textWrapper
+  .landingWrapper .mainSection.right .textWrapper {
+    left: auto;
+    right: auto;
+  }
+
+  .landingWrapper .mainSection.left .textWrapper {
+    left: 95px;
+    top: 262px;
+  }
 
   .landingWrapper .mainSection:first-child .textWrapper {
     top: 56px;
   }
 
+  .landingWrapper .mainSection.left .pattern {
+      margin-left: -54px;
+  }
+
+  .landingWrapper .mainSection:first-child .pattern {
+      margin-top: 133px;
+  }
+
+  .landingWrapper .mainSection.right .textWrapper {
+    top: 159px;
+    left: 97px;
+  }
+  .landingWrapper .mainSection.pattern {
+    margin-top: 133px;
+  }
+
+  .landingWrapper .mainSection.left .pattern
+  .landingWrapper .mainSection.right .pattern {
+    margin: 0;
+    left: -60px;
+  }
+
+  /* .landingWrapper .mainSection:nth-child(3) .pattern {
+    top: 90px;
+    left: 400px;
+  } */
+
+  .landingWrapper .mainSection.right .pattern {
+    margin-left: -55px;
+    margin-top: 88px;
+  }
+
+  .landingWrapper .mainSection.center .textWrapper {
+    text-align: center;
+    width: 100%;
+    top: 416px;
+  }
+
+  .landingWrapper .mainSection.center .textWrapper h2 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  .landingWrapper .mainSection.center p {
+    font-size: 26px;
+    line-height: 38px;
+  }
+
+  .landingWrapper .mainSection.center h2 + p {
+      margin-top: 35px;
+  }
+
+  .landingWrapper .mainSection.center br.desktop {
+    display: none;
+  }
+
+  .landingWrapper .mainSection.center br.tablet {
+    display: block;
+  }
+
+  .landingWrapper .mainSection.center .textWrapper nav {
+    margin-top: 131px;
+  }
+
+  .landingWrapper .mainSection.center footer {
+    padding-bottom: 16px;
+  }
+/*
+  .landingWrapper .mainSection .pattern {
+    width: 210px;
+    height: 20px;
+    margin-top: 60px;
+  }
+
   .landingWrapper .mainSection.left .textWrapper {
-    left: 167px;
+    left: 95px;
   }
 
   .landingWrapper .mainSection:first-child .pattern {
     margin-top: 133px;
-    margin-left: -56px;
+    margin-left: -55px;
   }
 
   .landingWrapper .mainSection.left .pattern {
@@ -337,7 +421,7 @@
 
   .landingWrapper .mainSection.right .textWrapper {
     top: 85px;
-    right: 163px;
+    right: 136px;
   }
 
   .landingWrapper .mainSection.right .pattern {
@@ -346,7 +430,7 @@
   }
 
   .landingWrapper .mainSection.center .textWrapper {
-    /* text-align: center; */
+    text-align: center;
     top: 190px;
   }
 
@@ -355,34 +439,36 @@
     line-height: 46px;
   }
 
+  .landingWrapper .mainSection.center h2 + p {
+    margin-top: 39px;
+  }
+
   .landingWrapper .mainSection.center .textWrapper nav {
-    margin-top: 181px;
+    margin-top: 169px;
   }
 
   .landingWrapper .mainSection.center footer {
     padding-bottom: 16px;
-  }
+  } */
 
   #mockup1 {
-    left: 321px;
+    left: 252px;
     top: 351px;
     height: 565px;
-    width: 518px;
+    width: 588px;
   }
 
   #mockup2 {
-    top: 400px;
-    left: 332px;
+    top: 475px;
+    left: 262px;
     width: 464px;
     height: 584px;
   }
 
   #mockup3 {
-    top: 569px;
-    left: 108px;
+    top: 717px;
+    left: 36px;
     width: 734px;
     height: 483px;
   }
-
-
 }
