@@ -15,8 +15,8 @@
   margin: 0 auto;
   padding-top: 50px;
   overflow: hidden;
-  border: 1px solid rgba(0,0,0,.1);
-  box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
+  border: 1px solid rgba(0, 0, 0, .1);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .05);
 }
 
 .landingWrapper .mainSection {
@@ -93,7 +93,7 @@
   text-align: center;
   border-top: 1px solid #f7f7f7;
   text-align: center;
-  background-color: #fcfcfc;
+  /* background-color: #fcfcfc; */
 }
 
 .landingWrapper .mainSection.center .textWrapper h2 {
@@ -306,7 +306,7 @@
   .landingWrapper .mainSection {
     width: 768px;
     min-width: 768px;
-    height: 1024px;
+    height: 950px;
   }
 
   .landingWrapper .mainSection .textWrapper
@@ -325,7 +325,7 @@
 
   .landingWrapper .mainSection.left .textWrapper {
     left: 95px;
-    top: 115px;
+    top: 262px;
   }
 
   .landingWrapper .mainSection:first-child .textWrapper {
@@ -341,23 +341,23 @@
   }
 
   .landingWrapper .mainSection.right .textWrapper {
-    top: 85px;
+    top: 159px;
     left: 97px;
   }
   .landingWrapper .mainSection.pattern {
     margin-top: 133px;
   }
 
-  .landingWrapper .mainSection.left .pattern,
+  .landingWrapper .mainSection.left .pattern
   .landingWrapper .mainSection.right .pattern {
-    margin-top: 133px;
-    margin-left: -54px;
+    margin: 0;
+    left: -60px;
   }
 
-  .landingWrapper .mainSection:nth-child(3) .pattern {
-    margin-top: 60px;
-    margin-left: 399px;
-  }
+  /* .landingWrapper .mainSection:nth-child(3) .pattern {
+    top: 90px;
+    left: 400px;
+  } */
 
   .landingWrapper .mainSection.right .pattern {
     margin-left: -55px;
@@ -367,7 +367,7 @@
   .landingWrapper .mainSection.center .textWrapper {
     text-align: center;
     width: 100%;
-    top: 194px;
+    top: 416px;
   }
 
   .landingWrapper .mainSection.center .textWrapper h2 {
@@ -399,25 +399,76 @@
   .landingWrapper .mainSection.center footer {
     padding-bottom: 16px;
   }
+/*
+  .landingWrapper .mainSection .pattern {
+    width: 210px;
+    height: 20px;
+    margin-top: 60px;
+  }
+
+  .landingWrapper .mainSection.left .textWrapper {
+    left: 95px;
+  }
+
+  .landingWrapper .mainSection:first-child .pattern {
+    margin-top: 133px;
+    margin-left: -55px;
+  }
+
+  .landingWrapper .mainSection.left .pattern {
+    margin-left: 398px;
+  }
+
+  .landingWrapper .mainSection.right .textWrapper {
+    top: 85px;
+    right: 136px;
+  }
+
+  .landingWrapper .mainSection.right .pattern {
+    margin-left: -54px;
+    margin-top: 88px;
+  }
+
+  .landingWrapper .mainSection.center .textWrapper {
+    text-align: center;
+    top: 190px;
+  }
+
+  .landingWrapper .mainSection.center .textWrapper h2 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  .landingWrapper .mainSection.center h2 + p {
+    margin-top: 39px;
+  }
+
+  .landingWrapper .mainSection.center .textWrapper nav {
+    margin-top: 169px;
+  }
+
+  .landingWrapper .mainSection.center footer {
+    padding-bottom: 16px;
+  } */
 
   #mockup1 {
-    top: 351px;
     left: 252px;
+    top: 351px;
     height: 565px;
     width: 588px;
   }
 
   #mockup2 {
-    top: 400px;
+    top: 475px;
     left: 262px;
     width: 464px;
     height: 584px;
   }
 
   #mockup3 {
-    top: 569px;
+    top: 717px;
     left: 36px;
-    width: 835px;
+    width: 734px;
     height: 483px;
   }
 }
