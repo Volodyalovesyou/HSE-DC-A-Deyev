@@ -29,9 +29,8 @@
 .green {
   border-color: #00c000;
   color: white;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b4ddb4+0,83c783+7,008a00+95,008718+100 */
-  background-image: linear-gradient(to bottom, #64F364 2%, #2BD42B 7%, #01A401 95%, #006900 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#008718',GradientType=0 ); /* IE6-9 */ */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(2%, #64F364), color-stop(7%, #2BD42B), color-stop(95%, #01A401), to(#006900));
+  background-image: linear-gradient(to bottom, #64F364 2%, #2BD42B 7%, #01A401 95%, #006900 100%);
 }
 
 @media all and (max-width: 1180px) and (min-width: 911px) {

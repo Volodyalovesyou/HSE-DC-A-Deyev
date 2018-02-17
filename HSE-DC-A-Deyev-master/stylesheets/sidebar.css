@@ -6,6 +6,7 @@
   width: 300px;
   z-index: 1;
   opacity: .1;
+  -webkit-transition: all .1s ease-out;
   transition: all .1s ease-out;
   font-size: 14px;
 }
